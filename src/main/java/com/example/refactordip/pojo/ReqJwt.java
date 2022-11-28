@@ -11,5 +11,5 @@ import lombok.experimental.FieldDefaults;
 @FieldDefaults(level = AccessLevel.PRIVATE)
 public class ReqJwt {
     String password;
-    String username;
+    String login;
 }

@@ -34,10 +34,6 @@ public class JwtFilter extends OncePerRequestFilter {
             username = jwtUtils.extractUsername(jwt);
         }
 
-        if(jwt!=null){
-
-        }
-
         if (username != null && SecurityContextHolder.getContext().getAuthentication() == null) {
             String commaSeparatedListOfAuthorities = jwtUtils.extractAuthorities(jwt);
             List<GrantedAuthority> authorities = AuthorityUtils.commaSeparatedStringToAuthorityList(commaSeparatedListOfAuthorities);

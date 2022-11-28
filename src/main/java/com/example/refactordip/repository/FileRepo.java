@@ -14,15 +14,17 @@ import java.util.List;
 
 public interface FileRepo extends JpaRepository<MyFile, Long> {
 
-    MyFile findByMyClientAndNameAndExist(MyClient client, String name, ExistFile existFile);
+    MyFile findByMyClientAndFilenameAndExist(MyClient client, String name, ExistFile existFile);
 
     @Modifying
-    @Query(value = "update MyFile mf set mf.exist = :existFile where mf.myClient = :myClient and mf.name = :name")
-    int falseDeletion(@Param("myClient") MyClient myClient, @Param("name") String name, @Param("existFile") ExistFile existFile);
+    @Query(value = "update MyFile mf set mf.exist = :existFile where mf.myClient = :myClient and mf.filename = :filename")
+    int falseDeletion(@Param("myClient") MyClient myClient, @Param("filename") String filename, @Param("existFile") ExistFile existFile);
 
     @Modifying
-    @Query(value = "update MyFile mf set mf.name = :newName where mf.myClient = :myClient and mf.name = :oldName")
-    int editFileNameByClient(@Param("myClient") MyClient myClient, @Param("oldName") String oldName, @Param("newName") String newName);
+    @Query(value = "update MyFile mf set mf.filename = :newName where" +
+            " mf.myClient = :myClient and mf.filename = :oldName and mf.exist = :existFile")
+    int editFileNameByClient(@Param("myClient") MyClient myClient, @Param("oldName") String oldName,
+                             @Param("newName") String newName, @Param("existFile") ExistFile existFile);
 
 
     @Query(value = "select mf from MyFile mf where mf.exist = :exist and mf.myClient = :myClient")

@@ -20,15 +20,21 @@ public class MyFile {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     Long id;
-    @Column(nullable = false, name = "name")
-    String name;
+
+    @Column(nullable = false, name = "filename")
+    String filename;
+
     @Column(nullable = false, name = "size")
     Long size;
+
     @JsonIgnore
     @Column(nullable = false, name = "path")
     String link;
+
+    @JsonIgnore
     @Column(nullable = false, name = "date_of_created")
     Date date;
+
     @Column(nullable = false, name = "exist")
     @JsonIgnore
     @Enumerated(EnumType.STRING)

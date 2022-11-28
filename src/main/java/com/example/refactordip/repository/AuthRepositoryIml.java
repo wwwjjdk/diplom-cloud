@@ -11,7 +11,7 @@ import java.util.concurrent.ConcurrentHashMap;
 
 @Repository
 public class AuthRepositoryIml implements CommandLineRunner {
-
+    //active session
     private ConcurrentHashMap<String, String> map = new ConcurrentHashMap<>();
 
     @Autowired
@@ -21,13 +21,17 @@ public class AuthRepositoryIml implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-
         clientRepo.save(MyClient.builder()
                 .date(new Date())
-                .name("gosha")
-                .password(passwordEncoder.encode("gosha"))
+                .name("user1@yandex.ru")
+                .password(passwordEncoder.encode("password1"))
                 .role("ROLE_CLIENT")
                 .build());
+        clientRepo.save(MyClient.builder()
+                .date(new Date())
+                .name("user2@yandex.ru")
+                .password(passwordEncoder.encode("password2"))
+                .role("ROLE_CLIENT").build());
 
     }
 

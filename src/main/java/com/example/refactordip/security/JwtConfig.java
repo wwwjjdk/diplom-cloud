@@ -44,7 +44,7 @@ public class JwtConfig extends WebSecurityConfigurerAdapter {
                 })
                 .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS);
         http.addFilterBefore(jwtFilter, UsernamePasswordAuthenticationFilter.class);
-        //http.logout().logoutUrl("/logout");
+        http.logout().logoutUrl("/logout");
 
     }
 }
