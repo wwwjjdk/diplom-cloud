@@ -1,0 +1,26 @@
+version: "3.9"
+services:
+  app:
+    build: ./
+    ports:
+      - "9999:9999"
+    depends_on:
+      - database
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://database:3306/CloudService
+      SPRING_DATASOURCE_USERNAME: root
+      SPRING_DATASOURCE_PASSWORD: root
+      SPRING_JPA_HIBERNATE_DDL_AUTO: update
+
+  database:
+    image: mysql
+    container_name: 'cloud-cont-2'
+    volumes:
+      - /mysql_data:/var/lib/mysql
+    environment:
+      MYSQL_USERNAME: root
+      MYSQL_PASSWORD: root
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: CloudService
+    ports:
+      - "3306:3306"

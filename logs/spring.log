@@ -1,0 +1,163 @@
+2022-11-29 00:10:36.272  INFO 28540 --- [main] c.e.refactordip.RefactordipApplication   : Starting RefactordipApplication using Java 17.0.4 on LAPTOP-F8VJTT0G with PID 28540 (C:\Users\gosha\IdeaProjects\refactordip\target\classes started by gosha in C:\Users\gosha\IdeaProjects\refactordip)
+2022-11-29 00:10:36.289  INFO 28540 --- [main] c.e.refactordip.RefactordipApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-11-29 00:10:36.836  INFO 28540 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-29 00:10:36.898  INFO 28540 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58 ms. Found 2 JPA repository interfaces.
+2022-11-29 00:10:37.320  INFO 28540 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9999 (http)
+2022-11-29 00:10:37.320  INFO 28540 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-29 00:10:37.320  INFO 28540 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-29 00:10:37.398  INFO 28540 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-29 00:10:37.398  INFO 28540 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1059 ms
+2022-11-29 00:10:37.555  INFO 28540 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-29 00:10:37.602  INFO 28540 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-11-29 00:10:37.695  INFO 28540 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-29 00:10:37.774  INFO 28540 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-11-29 00:10:38.062  INFO 28540 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-11-29 00:10:38.071  INFO 28540 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-11-29 00:10:38.589  INFO 28540 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-29 00:10:38.595  INFO 28540 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-29 00:10:38.820  WARN 28540 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-29 00:10:39.039  INFO 28540 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1e466d, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@63243c8f, org.springframework.security.web.context.SecurityContextPersistenceFilter@8f374de, org.springframework.security.web.header.HeaderWriterFilter@291028d7, org.springframework.security.web.authentication.logout.LogoutFilter@5b1f0f26, com.example.refactordip.security.JwtFilter@349aeec4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1bba9862, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@60fe75f7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2ea4e762, org.springframework.security.web.session.SessionManagementFilter@6765b6a2, org.springframework.security.web.access.ExceptionTranslationFilter@65021bb4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3ba8ef4e]
+2022-11-29 00:10:39.289  INFO 28540 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9999 (http) with context path ''
+2022-11-29 00:10:39.289  INFO 28540 --- [main] c.e.refactordip.RefactordipApplication   : Started RefactordipApplication in 3.358 seconds (JVM running for 3.952)
+2022-11-29 00:11:10.812  INFO 28540 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-29 00:11:10.812  INFO 28540 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-11-29 00:11:10.843  INFO 28540 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-11-29 00:11:16.830  INFO 26552 --- [main] c.e.refactordip.RefactordipApplication   : Starting RefactordipApplication using Java 17.0.4 on LAPTOP-F8VJTT0G with PID 26552 (C:\Users\gosha\IdeaProjects\refactordip\target\classes started by gosha in C:\Users\gosha\IdeaProjects\refactordip)
+2022-11-29 00:11:16.830  INFO 26552 --- [main] c.e.refactordip.RefactordipApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-11-29 00:11:17.335  INFO 26552 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-29 00:11:17.381  INFO 26552 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 39 ms. Found 2 JPA repository interfaces.
+2022-11-29 00:11:17.741  INFO 26552 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9999 (http)
+2022-11-29 00:11:17.757  INFO 26552 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-29 00:11:17.757  INFO 26552 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-29 00:11:17.819  INFO 26552 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-29 00:11:17.819  INFO 26552 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 956 ms
+2022-11-29 00:11:17.944  INFO 26552 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-29 00:11:17.975  INFO 26552 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-11-29 00:11:18.069  INFO 26552 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-29 00:11:18.132  INFO 26552 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-11-29 00:11:18.355  INFO 26552 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-11-29 00:11:18.368  INFO 26552 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-11-29 00:11:18.845  INFO 26552 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-29 00:11:18.850  INFO 26552 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-29 00:11:19.068  WARN 26552 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-29 00:11:19.256  INFO 26552 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5dc120ab, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@49c4118b, org.springframework.security.web.context.SecurityContextPersistenceFilter@220cda54, org.springframework.security.web.header.HeaderWriterFilter@22846a1d, org.springframework.security.web.authentication.logout.LogoutFilter@1f1ffc18, com.example.refactordip.security.JwtFilter@69944a90, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4d3990a5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@550f522b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7ef7f414, org.springframework.security.web.session.SessionManagementFilter@53b907d9, org.springframework.security.web.access.ExceptionTranslationFilter@8e00c02, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@8dcacf1]
+2022-11-29 00:11:19.490  INFO 26552 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9999 (http) with context path ''
+2022-11-29 00:11:19.506  INFO 26552 --- [main] c.e.refactordip.RefactordipApplication   : Started RefactordipApplication in 2.991 seconds (JVM running for 3.438)
+2022-11-29 00:14:53.831  INFO 26552 --- [http-nio-9999-exec-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-29 00:14:53.832  INFO 26552 --- [http-nio-9999-exec-5] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-29 00:14:53.833  INFO 26552 --- [http-nio-9999-exec-5] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-11-29 00:14:53.910  INFO 26552 --- [http-nio-9999-exec-5] c.e.refactordip.controller.MyController  : login request
+2022-11-29 00:14:54.112  INFO 26552 --- [http-nio-9999-exec-5] c.example.refactordip.Service.MyService  : user user1@yandex.ru login
+2022-11-29 00:17:32.196  INFO 26552 --- [http-nio-9999-exec-8] c.e.refactordip.controller.MyController  : login request
+2022-11-29 00:20:06.990  INFO 26552 --- [http-nio-9999-exec-10] c.e.refactordip.controller.MyController  : login request
+2022-11-29 00:20:07.066  INFO 26552 --- [http-nio-9999-exec-10] c.example.refactordip.Service.MyService  : user user1@yandex.ru login
+2022-11-29 00:22:38.409  INFO 26552 --- [http-nio-9999-exec-1] c.e.refactordip.controller.MyController  : Upload file to server
+2022-11-29 00:22:38.417  WARN 26552 --- [http-nio-9999-exec-1] c.example.refactordip.Service.MyService  : the file should not be empty
+2022-11-29 00:23:21.655  INFO 26552 --- [http-nio-9999-exec-9] c.e.refactordip.controller.MyController  : Upload file to server
+2022-11-29 00:23:21.673  WARN 26552 --- [http-nio-9999-exec-9] c.example.refactordip.Service.MyService  : the file should not be empty
+2022-11-29 00:24:17.458  INFO 26552 --- [http-nio-9999-exec-8] c.e.refactordip.controller.MyController  : Upload file to server
+2022-11-29 00:24:17.470  WARN 26552 --- [http-nio-9999-exec-8] c.example.refactordip.Service.MyService  : Unauthorized error
+2022-11-29 00:26:37.759  INFO 26552 --- [http-nio-9999-exec-10] c.e.refactordip.controller.MyController  : Upload file to server
+2022-11-29 00:28:56.460  INFO 26552 --- [http-nio-9999-exec-1] c.e.refactordip.controller.MyController  : delete request
+2022-11-29 00:28:56.468  WARN 26552 --- [http-nio-9999-exec-1] c.example.refactordip.Service.MyService  : Unauthorized error
+2022-11-29 00:35:09.676  INFO 26552 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-29 00:35:09.676  INFO 26552 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-11-29 00:35:09.703  INFO 26552 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-11-29 00:35:13.654  INFO 29868 --- [main] c.e.refactordip.RefactordipApplication   : Starting RefactordipApplication using Java 17.0.4 on LAPTOP-F8VJTT0G with PID 29868 (C:\Users\gosha\IdeaProjects\refactordip\target\classes started by gosha in C:\Users\gosha\IdeaProjects\refactordip)
+2022-11-29 00:35:13.654  INFO 29868 --- [main] c.e.refactordip.RefactordipApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-11-29 00:35:14.192  INFO 29868 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-29 00:35:14.242  INFO 29868 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 42 ms. Found 2 JPA repository interfaces.
+2022-11-29 00:35:14.625  INFO 29868 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9999 (http)
+2022-11-29 00:35:14.641  INFO 29868 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-29 00:35:14.641  INFO 29868 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-29 00:35:14.734  INFO 29868 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-29 00:35:14.734  INFO 29868 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1026 ms
+2022-11-29 00:35:14.891  INFO 29868 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-29 00:35:14.938  INFO 29868 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-11-29 00:35:15.031  INFO 29868 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-29 00:35:15.109  INFO 29868 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-11-29 00:35:15.466  INFO 29868 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-11-29 00:35:15.482  INFO 29868 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-11-29 00:35:16.117  INFO 29868 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-29 00:35:16.124  INFO 29868 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-29 00:35:16.342  WARN 29868 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-29 00:35:16.560  INFO 29868 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5dc120ab, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@49c4118b, org.springframework.security.web.context.SecurityContextPersistenceFilter@220cda54, org.springframework.security.web.header.HeaderWriterFilter@22846a1d, org.springframework.security.web.authentication.logout.LogoutFilter@1f1ffc18, com.example.refactordip.security.JwtFilter@69944a90, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4d3990a5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@550f522b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7ef7f414, org.springframework.security.web.session.SessionManagementFilter@53b907d9, org.springframework.security.web.access.ExceptionTranslationFilter@8e00c02, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@8dcacf1]
+2022-11-29 00:35:16.763  INFO 29868 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9999 (http) with context path ''
+2022-11-29 00:35:16.786  INFO 29868 --- [main] c.e.refactordip.RefactordipApplication   : Started RefactordipApplication in 3.419 seconds (JVM running for 3.905)
+2022-11-29 00:35:53.585  INFO 29868 --- [http-nio-9999-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-29 00:35:53.585  INFO 29868 --- [http-nio-9999-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-29 00:35:53.586  INFO 29868 --- [http-nio-9999-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-11-29 00:35:53.650  INFO 29868 --- [http-nio-9999-exec-4] c.e.refactordip.controller.MyController  : login request
+2022-11-29 00:35:53.839  INFO 29868 --- [http-nio-9999-exec-4] c.example.refactordip.Service.MyService  : user user1@yandex.ru login
+2022-11-29 00:36:00.775  INFO 29868 --- [http-nio-9999-exec-3] c.e.refactordip.controller.MyController  : Upload file to server
+2022-11-29 00:36:00.786  WARN 29868 --- [http-nio-9999-exec-3] c.example.refactordip.Service.MyService  : Unauthorized error
+2022-11-29 00:36:07.675  INFO 29868 --- [http-nio-9999-exec-2] c.e.refactordip.controller.MyController  : Upload file to server
+2022-11-29 00:36:07.680  WARN 29868 --- [http-nio-9999-exec-2] c.example.refactordip.Service.MyService  : the file should not be empty
+2022-11-29 00:36:12.562  INFO 29868 --- [http-nio-9999-exec-6] c.e.refactordip.controller.MyController  : Upload file to server
+2022-11-29 00:36:24.482  INFO 29868 --- [http-nio-9999-exec-7] c.e.refactordip.controller.MyController  : Upload file to server
+2022-11-29 00:36:28.568  INFO 29868 --- [http-nio-9999-exec-8] c.e.refactordip.controller.MyController  : delete request
+2022-11-29 00:36:28.576  WARN 29868 --- [http-nio-9999-exec-8] c.example.refactordip.Service.MyService  : Unauthorized error
+2022-11-29 00:36:34.372  INFO 29868 --- [http-nio-9999-exec-9] c.e.refactordip.controller.MyController  : delete request
+2022-11-29 00:36:34.379  WARN 29868 --- [http-nio-9999-exec-9] c.example.refactordip.Service.MyService  : Unauthorized error
+2022-11-29 00:36:40.493  INFO 29868 --- [http-nio-9999-exec-5] c.e.refactordip.controller.MyController  : delete request
+2022-11-29 00:36:40.504  WARN 29868 --- [http-nio-9999-exec-5] c.example.refactordip.Service.MyService  : Error input data
+2022-11-29 00:36:52.124  INFO 29868 --- [http-nio-9999-exec-4] c.e.refactordip.controller.MyController  : delete request
+2022-11-29 00:36:52.148  INFO 29868 --- [http-nio-9999-exec-4] c.example.refactordip.Service.MyService  : answer: 1
+2022-11-29 00:36:58.699  INFO 29868 --- [http-nio-9999-exec-3] c.e.refactordip.controller.MyController  : put request
+2022-11-29 00:36:58.707  WARN 29868 --- [http-nio-9999-exec-3] c.example.refactordip.Service.MyService  : Unauthorized error
+2022-11-29 00:37:12.375  INFO 29868 --- [http-nio-9999-exec-2] c.e.refactordip.controller.MyController  : put request
+2022-11-29 00:37:17.243  INFO 29868 --- [http-nio-9999-exec-10] c.e.refactordip.controller.MyController  : put request
+2022-11-29 00:37:23.284  INFO 29868 --- [http-nio-9999-exec-7] c.e.refactordip.controller.MyController  : put request
+2022-11-29 00:37:57.455  INFO 29868 --- [http-nio-9999-exec-9] c.e.refactordip.controller.MyController  : getFile request
+2022-11-29 00:37:57.462  WARN 29868 --- [http-nio-9999-exec-9] c.example.refactordip.Service.MyService  : Unauthorized error
+2022-11-29 00:38:03.868  INFO 29868 --- [http-nio-9999-exec-5] c.e.refactordip.controller.MyController  : getFile request
+2022-11-29 00:38:03.879  WARN 29868 --- [http-nio-9999-exec-5] c.example.refactordip.Service.MyService  : Error input data
+2022-11-29 00:38:10.622  INFO 29868 --- [http-nio-9999-exec-4] c.e.refactordip.controller.MyController  : getFile request
+2022-11-29 00:38:18.493  INFO 29868 --- [http-nio-9999-exec-3] c.e.refactordip.controller.MyController  : getFile request
+2022-11-29 00:38:18.504  WARN 29868 --- [http-nio-9999-exec-3] c.example.refactordip.Service.MyService  : Error input data
+2022-11-29 00:38:29.075  INFO 29868 --- [http-nio-9999-exec-10] c.e.refactordip.controller.MyController  : getFile request
+2022-11-29 00:38:29.086  WARN 29868 --- [http-nio-9999-exec-10] c.example.refactordip.Service.MyService  : Error input data
+2022-11-29 00:38:50.940  INFO 29868 --- [http-nio-9999-exec-7] c.e.refactordip.controller.MyController  : getAllFilesInfo request
+2022-11-29 00:38:50.947  WARN 29868 --- [http-nio-9999-exec-7] c.example.refactordip.Service.MyService  : Unauthorized error
+2022-11-29 00:38:59.626  INFO 29868 --- [http-nio-9999-exec-8] c.e.refactordip.controller.MyController  : getAllFilesInfo request
+2022-11-29 00:38:59.634 ERROR 29868 --- [http-nio-9999-exec-8] c.example.refactordip.Service.MyService  : Error getting file list
+2022-11-29 00:39:07.912  INFO 29868 --- [http-nio-9999-exec-5] c.e.refactordip.controller.MyController  : getAllFilesInfo request
+2022-11-29 00:39:17.161  WARN 29868 --- [http-nio-9999-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2022-11-29 00:39:22.219  WARN 29868 --- [http-nio-9999-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2022-11-29 00:40:34.111  INFO 29868 --- [http-nio-9999-exec-7] c.e.refactordip.controller.MyController  : getAllFilesInfo request
+2022-11-29 00:40:34.116  INFO 29868 --- [http-nio-9999-exec-7] c.example.refactordip.Service.MyService  : token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMkB5YW5kZXgucnUiLCJleHAiOjE2Njk2NDUwMDAsImlhdCI6MTY2OTY0NDEwMCwiYXV0aG9yaXRpZXMiOiJST0xFX0NMSUVOVCJ9.S-vr6_tNXjOfIbeT7Tqy290SWC-rz88Stbb4OJPd_Yc
+2022-11-29 00:40:34.119  WARN 29868 --- [http-nio-9999-exec-7] c.example.refactordip.Service.MyService  : Unauthorized error
+2022-11-29 00:40:58.329  INFO 29868 --- [http-nio-9999-exec-1] c.e.refactordip.controller.MyController  : login request
+2022-11-29 00:40:58.406  INFO 29868 --- [http-nio-9999-exec-1] c.example.refactordip.Service.MyService  : user user1@yandex.ru login
+2022-11-29 00:40:58.490  INFO 29868 --- [http-nio-9999-exec-4] c.e.refactordip.controller.MyController  : getAllFilesInfo request
+2022-11-29 00:40:58.493  INFO 29868 --- [http-nio-9999-exec-4] c.example.refactordip.Service.MyService  : token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMUB5YW5kZXgucnUiLCJleHAiOjE2Njk2NzI1NTgsImlhdCI6MTY2OTY3MTY1OCwiYXV0aG9yaXRpZXMiOiJST0xFX0NMSUVOVCJ9.RcGy8GaVMvBpA4kYT0z-1JPoJKIzPEZ2tiQf4auWeOM
+2022-11-29 00:41:26.151  INFO 29868 --- [http-nio-9999-exec-2] c.e.refactordip.controller.MyController  : Upload file to server
+2022-11-29 00:41:26.155  INFO 29868 --- [http-nio-9999-exec-2] c.example.refactordip.Service.MyService  : token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMUB5YW5kZXgucnUiLCJleHAiOjE2Njk2NzI1NTgsImlhdCI6MTY2OTY3MTY1OCwiYXV0aG9yaXRpZXMiOiJST0xFX0NMSUVOVCJ9.RcGy8GaVMvBpA4kYT0z-1JPoJKIzPEZ2tiQf4auWeOM
+2022-11-29 00:41:28.180  INFO 29868 --- [http-nio-9999-exec-10] c.e.refactordip.controller.MyController  : getAllFilesInfo request
+2022-11-29 00:41:28.185  INFO 29868 --- [http-nio-9999-exec-10] c.example.refactordip.Service.MyService  : token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMUB5YW5kZXgucnUiLCJleHAiOjE2Njk2NzI1NTgsImlhdCI6MTY2OTY3MTY1OCwiYXV0aG9yaXRpZXMiOiJST0xFX0NMSUVOVCJ9.RcGy8GaVMvBpA4kYT0z-1JPoJKIzPEZ2tiQf4auWeOM
+2022-11-29 00:41:42.078  INFO 29868 --- [http-nio-9999-exec-7] c.e.refactordip.controller.MyController  : Upload file to server
+2022-11-29 00:41:42.082  INFO 29868 --- [http-nio-9999-exec-7] c.example.refactordip.Service.MyService  : token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMUB5YW5kZXgucnUiLCJleHAiOjE2Njk2NzI1NTgsImlhdCI6MTY2OTY3MTY1OCwiYXV0aG9yaXRpZXMiOiJST0xFX0NMSUVOVCJ9.RcGy8GaVMvBpA4kYT0z-1JPoJKIzPEZ2tiQf4auWeOM
+2022-11-29 00:41:44.105  INFO 29868 --- [http-nio-9999-exec-8] c.e.refactordip.controller.MyController  : getAllFilesInfo request
+2022-11-29 00:41:44.109  INFO 29868 --- [http-nio-9999-exec-8] c.example.refactordip.Service.MyService  : token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMUB5YW5kZXgucnUiLCJleHAiOjE2Njk2NzI1NTgsImlhdCI6MTY2OTY3MTY1OCwiYXV0aG9yaXRpZXMiOiJST0xFX0NMSUVOVCJ9.RcGy8GaVMvBpA4kYT0z-1JPoJKIzPEZ2tiQf4auWeOM
+2022-11-29 00:41:49.734  INFO 29868 --- [http-nio-9999-exec-5] c.e.refactordip.controller.MyController  : Upload file to server
+2022-11-29 00:41:49.738  INFO 29868 --- [http-nio-9999-exec-5] c.example.refactordip.Service.MyService  : token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMUB5YW5kZXgucnUiLCJleHAiOjE2Njk2NzI1NTgsImlhdCI6MTY2OTY3MTY1OCwiYXV0aG9yaXRpZXMiOiJST0xFX0NMSUVOVCJ9.RcGy8GaVMvBpA4kYT0z-1JPoJKIzPEZ2tiQf4auWeOM
+2022-11-29 00:41:51.761  INFO 29868 --- [http-nio-9999-exec-1] c.e.refactordip.controller.MyController  : getAllFilesInfo request
+2022-11-29 00:41:51.765  INFO 29868 --- [http-nio-9999-exec-1] c.example.refactordip.Service.MyService  : token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMUB5YW5kZXgucnUiLCJleHAiOjE2Njk2NzI1NTgsImlhdCI6MTY2OTY3MTY1OCwiYXV0aG9yaXRpZXMiOiJST0xFX0NMSUVOVCJ9.RcGy8GaVMvBpA4kYT0z-1JPoJKIzPEZ2tiQf4auWeOM
+2022-11-29 00:42:09.915  INFO 29868 --- [http-nio-9999-exec-3] c.e.refactordip.controller.MyController  : put request
+2022-11-29 00:42:09.921  INFO 29868 --- [http-nio-9999-exec-3] c.example.refactordip.Service.MyService  : token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMUB5YW5kZXgucnUiLCJleHAiOjE2Njk2NzI1NTgsImlhdCI6MTY2OTY3MTY1OCwiYXV0aG9yaXRpZXMiOiJST0xFX0NMSUVOVCJ9.RcGy8GaVMvBpA4kYT0z-1JPoJKIzPEZ2tiQf4auWeOM
+2022-11-29 00:42:16.930  INFO 29868 --- [http-nio-9999-exec-10] c.e.refactordip.controller.MyController  : put request
+2022-11-29 00:42:16.934  INFO 29868 --- [http-nio-9999-exec-10] c.example.refactordip.Service.MyService  : token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMUB5YW5kZXgucnUiLCJleHAiOjE2Njk2NzI1NTgsImlhdCI6MTY2OTY3MTY1OCwiYXV0aG9yaXRpZXMiOiJST0xFX0NMSUVOVCJ9.RcGy8GaVMvBpA4kYT0z-1JPoJKIzPEZ2tiQf4auWeOM
+2022-11-29 00:42:21.470  INFO 29868 --- [http-nio-9999-exec-7] c.e.refactordip.controller.MyController  : put request
+2022-11-29 00:42:21.475  INFO 29868 --- [http-nio-9999-exec-7] c.example.refactordip.Service.MyService  : token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMUB5YW5kZXgucnUiLCJleHAiOjE2Njk2NzI1NTgsImlhdCI6MTY2OTY3MTY1OCwiYXV0aG9yaXRpZXMiOiJST0xFX0NMSUVOVCJ9.RcGy8GaVMvBpA4kYT0z-1JPoJKIzPEZ2tiQf4auWeOM
+2022-11-29 00:42:35.509  INFO 29868 --- [http-nio-9999-exec-9] c.e.refactordip.controller.MyController  : put request
+2022-11-29 00:42:35.513  INFO 29868 --- [http-nio-9999-exec-9] c.example.refactordip.Service.MyService  : token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMUB5YW5kZXgucnUiLCJleHAiOjE2Njk2NzI1NTgsImlhdCI6MTY2OTY3MTY1OCwiYXV0aG9yaXRpZXMiOiJST0xFX0NMSUVOVCJ9.RcGy8GaVMvBpA4kYT0z-1JPoJKIzPEZ2tiQf4auWeOM
+2022-11-29 00:42:55.742  INFO 29868 --- [http-nio-9999-exec-1] c.e.refactordip.controller.MyController  : delete request
+2022-11-29 00:42:55.746  INFO 29868 --- [http-nio-9999-exec-1] c.example.refactordip.Service.MyService  : token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMUB5YW5kZXgucnUiLCJleHAiOjE2Njk2NzI1NTgsImlhdCI6MTY2OTY3MTY1OCwiYXV0aG9yaXRpZXMiOiJST0xFX0NMSUVOVCJ9.RcGy8GaVMvBpA4kYT0z-1JPoJKIzPEZ2tiQf4auWeOM
+2022-11-29 00:42:55.755  INFO 29868 --- [http-nio-9999-exec-1] c.example.refactordip.Service.MyService  : answer: 1
+2022-11-29 00:42:57.769  INFO 29868 --- [http-nio-9999-exec-4] c.e.refactordip.controller.MyController  : getAllFilesInfo request
+2022-11-29 00:42:57.773  INFO 29868 --- [http-nio-9999-exec-4] c.example.refactordip.Service.MyService  : token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMUB5YW5kZXgucnUiLCJleHAiOjE2Njk2NzI1NTgsImlhdCI6MTY2OTY3MTY1OCwiYXV0aG9yaXRpZXMiOiJST0xFX0NMSUVOVCJ9.RcGy8GaVMvBpA4kYT0z-1JPoJKIzPEZ2tiQf4auWeOM
+2022-11-29 00:43:19.334  INFO 29868 --- [http-nio-9999-exec-2] c.e.refactordip.controller.MyController  : getFile request
+2022-11-29 00:43:19.338  INFO 29868 --- [http-nio-9999-exec-2] c.example.refactordip.Service.MyService  : token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyMUB5YW5kZXgucnUiLCJleHAiOjE2Njk2NzI1NTgsImlhdCI6MTY2OTY3MTY1OCwiYXV0aG9yaXRpZXMiOiJST0xFX0NMSUVOVCJ9.RcGy8GaVMvBpA4kYT0z-1JPoJKIzPEZ2tiQf4auWeOM
+2022-11-29 00:44:05.187  INFO 29868 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-29 00:44:05.187  INFO 29868 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-11-29 00:44:05.212  INFO 29868 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
