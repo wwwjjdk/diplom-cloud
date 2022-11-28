@@ -17,17 +17,3 @@
 ## Клиенты:
 1. Login: user1@yandex.ru , password: password1;
 2. Login: user2@yandex.ru , password: password2.
-![img_6.png](img_6.png)
-## Реализация методов:
-1. Вход;
-![img_5.png](img_5.png)
-2. Загрузка файлов;
-![img.png](img.png)
-3. Изменение имени;
-![img_1.png](img_1.png)
-4. Удаление;
-![img_2.png](img_2.png)
-5. Скачивание;
-![img_3.png](img_3.png)
-6. Выход.
-![img_4.png](img_4.png)
